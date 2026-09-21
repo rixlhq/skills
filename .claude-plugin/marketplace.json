@@ -1,0 +1,15 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "rixl",
+  "owner": {
+    "name": "Rixl",
+    "url": "https://rixl.com"
+  },
+  "plugins": [
+    {
+      "name": "rixl",
+      "source": "./",
+      "description": "Read media, analytics, billing and content data from Rixl with platform guidance Skills and the Rixl MCP server."
+    }
+  ]
+}

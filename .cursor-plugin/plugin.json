@@ -1,0 +1,12 @@
+{
+  "name": "rixl",
+  "version": "0.1.0",
+  "description": "Read media, analytics, billing and content data from Rixl with platform guidance Skills and the Rixl MCP server.",
+  "author": {
+    "name": "Rixl",
+    "email": "support@rixl.com",
+    "url": "https://rixl.com"
+  },
+  "keywords": ["rixl", "media", "video", "images", "analytics", "billing", "mcp"],
+  "logo": "logo.svg"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "rixl",
+  "version": "0.1.0",
+  "description": "Read media, analytics, billing and content data from Rixl with platform guidance Skills and the Rixl MCP server.",
+  "author": {
+    "name": "Rixl",
+    "email": "support@rixl.com",
+    "url": "https://rixl.com"
+  },
+  "homepage": "https://docs.rixl.com",
+  "repository": "https://github.com/rixlhq/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "rixl",
+    "media",
+    "video",
+    "images",
+    "analytics",
+    "billing",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Rixl",
+    "shortDescription": "Rixl media, analytics and billing",
+    "longDescription": "Read a Rixl organization's videos, images, feeds and posts, their playback and engagement metrics, and its invoices, usage and subscription, through the Rixl MCP server. Read-only: every exposed operation is a GET.",
+    "developerName": "Rixl",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://rixl.com",
+    "privacyPolicyURL": "https://rixl.com/privacy",
+    "termsOfServiceURL": "https://rixl.com/terms",
+    "defaultPrompt": [
+      "Show me my top videos by engagement this month",
+      "What is my current storage and bandwidth usage against my plan?",
+      "List the feeds in my project and the most recent posts in each"
+    ],
+    "brandColor": "#A5FF4A",
+    "composerIcon": "./logo.svg",
+    "logo": "./logo.svg",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "rixl",
+  "displayName": "Rixl",
+  "description": "Read media, analytics, billing and content data from Rixl with platform guidance Skills and the Rixl MCP server.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Rixl",
+    "url": "https://rixl.com"
+  },
+  "homepage": "https://docs.rixl.com",
+  "repository": "https://github.com/rixlhq/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "rixl",
+    "media",
+    "video",
+    "analytics",
+    "billing",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Rixl API key",
+      "description": "Project API key with the mcp-readonly policy attached. Create one in the Rixl dashboard under Project > API Keys.",
+      "sensitive": true,
+      "required": true
+    },
+    "base_url": {
+      "type": "string",
+      "title": "MCP endpoint",
+      "description": "Rixl MCP endpoint. Override only when testing against a local gateway.",
+      "default": "https://api.rixl.com/mcp"
+    }
+  }
+}

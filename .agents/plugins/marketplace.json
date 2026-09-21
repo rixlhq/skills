@@ -1,0 +1,20 @@
+{
+  "name": "rixl",
+  "interface": {
+    "displayName": "Rixl"
+  },
+  "plugins": [
+    {
+      "name": "rixl",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rixlhq/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
